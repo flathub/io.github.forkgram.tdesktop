@@ -374,6 +374,11 @@ modules:
   - name: tdesktop
     buildsystem: cmake-ninja
     builddir: true
+    build-options:
+      cflags: -fpch-preprocess
+      cxxflags: -fpch-preprocess
+      env:
+        CCACHE_SLOPPINESS: pch_defines,time_macros
     config-opts:
       - -DTDESKTOP_API_ID=14577864
       - -DTDESKTOP_API_HASH=54d3ae230fd8f985ce9adccf08fbd9d6
