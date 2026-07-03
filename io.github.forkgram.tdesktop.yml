@@ -292,7 +292,7 @@ modules:
             "https://download.qt.io/archive/qt/\($v[0]).\($v[1])/\($version)/single/qt-everywhere-src-\($version).tar.xz"
       - type: git
         url: https://github.com/desktop-app/patches.git
-        commit: e481284d692dbd556ff1f40006ae774d10a16b9e
+        commit: 701cfb4b3d6612188d168f198c842114fd64726f
         dest: patches
         x-checker-data:
           type: json
@@ -385,8 +385,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/forkgram/tdesktop.git
-        commit: b8a86ab2c6e3176b8a58b9ea6353d3bbd6962726
-        tag: v6.9.3
+        commit: 5655d21d51f6b68c897b690c5bd490a6bcb51005
+        tag: v6.9.4
         x-checker-data:
           type: json
           url: https://api.github.com/repos/forkgram/tdesktop/releases/latest
