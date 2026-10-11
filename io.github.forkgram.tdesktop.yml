@@ -280,7 +280,7 @@ modules:
             "https://download.qt.io/archive/qt/\($v[0]).\($v[1])/\($version)/single/qt-everywhere-src-\($version).tar.xz"
       - type: git
         url: https://github.com/desktop-app/patches.git
-        commit: 519aaa084608fa6f9a2bfbd1959d133c44d94227
+        commit: aec474953ff7ee9b6e4cd9b8658288ea86d124f3
         dest: patches
         x-checker-data:
           type: json
@@ -313,7 +313,7 @@ modules:
     sources:
       - type: git
         url: https://github.com/desktop-app/tg_owt.git
-        commit: 26068e29bfa8d74a9dc9c8f7f94172fafbc262b8
+        commit: d1cf250ea73de26c4c1f0a3c8173eb2648efbb04
         x-checker-data:
           type: json
           parent-id: tdesktop-git-0
@@ -372,7 +372,7 @@ modules:
     sources:
       - type: git
         url: https://github.com/dkaraush/tlottie.git
-        commit: 31f1b542f88e7b4be9a01e749920d857535fc715
+        commit: 92df98dc209bc39b1e567ec74a8c86a0af5239de
         x-cargo-lock:
           - Cargo.lock
         x-checker-data:
@@ -392,7 +392,7 @@ modules:
             .commit.committer.date
       - type: git
         url: https://github.com/desktop-app/patches.git
-        commit: 519aaa084608fa6f9a2bfbd1959d133c44d94227
+        commit: aec474953ff7ee9b6e4cd9b8658288ea86d124f3
         dest: patches
         x-checker-data:
           type: json
@@ -432,8 +432,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/forkgram/tdesktop.git
-        commit: 222683d38c66f3daace810a6b3a322d4b24470d0
-        tag: v7.2.9
+        commit: 5b062520b1bda3acd9a68c2822b42ebc29d220c9
+        tag: v7.3.1
         x-checker-data:
           type: json
           url: https://api.github.com/repos/forkgram/tdesktop/releases/latest
