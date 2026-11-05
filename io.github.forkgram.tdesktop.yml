@@ -434,7 +434,7 @@ modules:
           type: json
           parent-id: tdesktop-git-0
           commit-data-url: >-
-            "https://github.com/telegramdesktop/tdesktop/raw/\($parent.new.tag//$parent.current.tag)/snap/snapcraft.yaml"
+            "https://github.com/forkgram/tdesktop/raw/\($parent.new.tag//$parent.current.tag)/snap/snapcraft.yaml"
           commit-query: >-
             .parts.patches."source-commit"
           version-data-url: >-
