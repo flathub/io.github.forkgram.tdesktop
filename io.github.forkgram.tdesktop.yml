@@ -470,8 +470,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/forkgram/tdesktop.git
-        commit: 75efe6958062db343fbd02c42ab3011c46b9c5d3
-        tag: v7.4.2
+        commit: 513cdf9901373cc81710137cef004b04a0bece2e
+        tag: v7.4.3
         x-checker-data:
           type: json
           url: https://api.github.com/repos/forkgram/tdesktop/releases/latest
